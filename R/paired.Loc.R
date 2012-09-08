@@ -109,4 +109,3 @@ function(x,y, method="parametric", exact=FALSE, conf.level=0.95, alternative="tw
            )
 
 }
-

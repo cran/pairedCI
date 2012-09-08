@@ -6,15 +6,18 @@
 Confidence intervals for the ratio of locations and for the ratio of scales of two paired samples
 }
 \description{
-The package contains two functions: paired.Loc and paired.Scale. A parametric and nonparametric confidence interval can be computed for the ratio of locations (paired.Loc) and the ratio of scales (paired.Scale). The samples must be paired and positive.
+The package contains two functions: paired.Loc and paired.Scale. A
+parametric and nonparametric confidence interval can be computed for the
+ratio of locations (paired.Loc) and the ratio of scales
+(paired.Scale). The samples must be paired and expected means must be positive.
 }
 \details{
 \tabular{ll}{
 Package: \tab pairedCI\cr
 Type: \tab Package\cr
-Version: \tab 0.5-2\cr
-Date: \tab 2012-03-28\cr
-License: \tab GPL\cr
+Version: \tab 0.5-3\cr
+Date: \tab 2012-09-08\cr
+License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
 
@@ -22,7 +25,7 @@ LazyLoad: \tab yes\cr
 \author{
 Cornelia Froemke, Ludwig Hothorn, Michael Schneider
 
-Maintainer: Cornelia Froemke <froemke.cornelia@mh-hannover.de>
+Maintainer: Cornelia Froemke <cornelia.froemke@tiho-hannover.de>
 }
 \references{
 J. Ogawa (1983): On the confidence bounds of the ratio of the means of
@@ -36,6 +39,8 @@ bivariate nonnormal distributions. J. Stat. Comput. Sim., 76 (7),
 637-644.
 
 Bonett, D.G. and E. Seier (2003): Statistical inference for a ratio of dispersions using paired samples. J. Educ. Behav. Stat., 28 (1), 21-30.
+
+K.F. Yee (1988): Confidence-interval approach for evaluating bias in laboratory methods. Journal of Automatic Chemistry, 10 (3), 144-146.
 }
 
 \keyword{ htest }

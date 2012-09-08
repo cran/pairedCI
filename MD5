@@ -1,8 +1,7 @@
-0f44300788b949689ea29d027c631d13 *DESCRIPTION
-7a19fee4c642dcdee75ed9e371a6043e *NAMESPACE
-124dc5d0bed0e53aa594db0f0ff6bb31 *R/paired.CI-internal.R
-a6f6426dfdbf312c24e1632e58b81427 *R/paired.Loc.R
-7029791f3caa92a67ff41a851ca478a6 *R/paired.Scale.R
+fade6b20c85abc0d70f0a203f8b5819b *DESCRIPTION
+cab72f7bb4cafece05babe3d41e870a8 *NAMESPACE
+8c128d331b191c9bfdfd11b46d4b2314 *R/paired.Loc.R
+cd9061056bb498cffa6d2a3d23b75295 *R/paired.Scale.R
 d1a7ff2f88002475eada98733a038d69 *man/paired.Loc.Rd
 c8a08e2e496dab97ae31b958f921545b *man/paired.Scale.Rd
-97d8fa48ed299e79aa8d83ef6238f118 *man/pairedCI-package.Rd
+d17f0dfebbee21962ade8f42900a0cf4 *man/pairedCI-package.Rd

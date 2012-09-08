@@ -18,7 +18,7 @@ function(x,y, method="parametric",  conf.level=0.95, alternative="two.sided" )
     switch(method, "parametric" =
        {
            correl <-cor(x,y)
-           g_term <- 1 + (2*(1-correl^2)*qt(conf.l,samsize-1))/(samsize-2)
+           g_term <- 1 + (2*(1-correl^2)*(qt(conf.l,samsize-2))^2)/(samsize-2)
            ratio<- var.x/var.y
            lower_CI <- ratio * (g_term - sqrt(g_term^2-1 ))
            upper_CI <- ratio * (g_term + sqrt(g_term^2-1 ))
@@ -66,4 +66,3 @@ function(x,y, method="parametric",  conf.level=0.95, alternative="two.sided" )
        }
            )
 }
-
