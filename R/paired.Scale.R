@@ -4,8 +4,7 @@ function(x,y, method="parametric",  conf.level=0.95, alternative="two.sided" )
 
     if (method != "parametric" & method != "nonparametric")
         stop(print("No such method; valid options are 'parametric' and 'nonparametric'"))
-    if (min(x) < 0 | min(y) < 0) stop(print("Negative values occured in one of the samples."))
-
+ 
     var.x <- var(x)
     var.y <- var(y)
     samsize <- length (x)

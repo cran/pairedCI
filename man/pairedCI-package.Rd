@@ -15,8 +15,8 @@ ratio of locations (paired.Loc) and the ratio of scales
 \tabular{ll}{
 Package: \tab pairedCI\cr
 Type: \tab Package\cr
-Version: \tab 0.5-3\cr
-Date: \tab 2012-09-08\cr
+Version: \tab 0.5-4\cr
+Date: \tab 2012-11-24\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }

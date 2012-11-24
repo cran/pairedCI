@@ -4,7 +4,7 @@
 Confidence intervals for the ratio of locations of two paired samples
 }
 \description{
-This function computes confidence intervals for the ratio of locations with matched pairs. 
+This function computes confidence intervals for the ratio of locations with matched pairs. Expected values must be positive. 
 }
 \usage{
 paired.Loc(x, y, method = "parametric", exact = FALSE, conf.level = 0.95, alternative = "two.sided")
@@ -46,6 +46,7 @@ K.F. Yee (1988): Confidence-interval approach for evaluating bias in laboratory 
 Cornelia Froemke, Ludwig Hothorn and Michael Schneider
 }
 
+
 \examples{
 
 astra <- c(2.4, 4.8, 4, 4.9, 3.9, 4.1, 3.8, 3.5, 4.6, 2.9, 4.9, 3.7, 4.8, 3.7, 3.8, 4.1, 4.2, 4.3, 3.9, 3.8)
@@ -56,4 +57,4 @@ paired.Loc(astra, flame, conf.level=0.9, method="parametric")
 paired.Loc(astra, flame, conf.level=0.9, method="nonparametric")
 
 }
-\keyword{ htest }
+\keyword{htest}

@@ -1,7 +1,7 @@
-fade6b20c85abc0d70f0a203f8b5819b *DESCRIPTION
+8cface8f4479e3dcb99ee40f14d7759d *DESCRIPTION
 cab72f7bb4cafece05babe3d41e870a8 *NAMESPACE
-8c128d331b191c9bfdfd11b46d4b2314 *R/paired.Loc.R
-cd9061056bb498cffa6d2a3d23b75295 *R/paired.Scale.R
-d1a7ff2f88002475eada98733a038d69 *man/paired.Loc.Rd
+6fb6316744bb52a406ce1bb8a2e317eb *R/paired.Loc.R
+776b28c9b92a2823824de8b93b996be8 *R/paired.Scale.R
+a186101ef398c790ca8c1ef727eb5cda *man/paired.Loc.Rd
 c8a08e2e496dab97ae31b958f921545b *man/paired.Scale.Rd
-d17f0dfebbee21962ade8f42900a0cf4 *man/pairedCI-package.Rd
+6dda352b6b53e329d9bff0f0e11bc314 *man/pairedCI-package.Rd
